@@ -6,4 +6,24 @@
 
 numero_1 = float(input("numero 1:"))
 numero_2 = float(input("numero 2:"))
-def soma_numeros()
+def soma_numeros():
+   Soma = (numero_1 + numero_2)
+   print (Soma)
+soma_numeros()
+_______________________________________
+2º algoritimo:
+
+
+
+_______________________________________
+3º algoritimo:
+numero_1= input("numero 1:")
+numero_2= input("numero 2:")
+numero_3= input("numero 3:")
+numero_4= input("numero 4:")
+x = (numero_1 + numero_2 + numero_3 + numero_4)
+
+def Media():
+   media = (x/4) 
+   print("A media é:", media)
+Media()
