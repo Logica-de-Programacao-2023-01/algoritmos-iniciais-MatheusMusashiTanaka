@@ -1,1 +1,9 @@
+1º-Algoritmo de soma de dois números: um algoritmo simples que pede dois números como entrada e retorna a soma desses dois números.
+2º-Algoritmo de conversão de temperatura: um algoritmo que converte uma temperatura em Celsius para Fahrenheit ou vice-versa.
+3º-Algoritmo de cálculo de média: um algoritmo que calcula a média de uma lista de números.
+----------------------------------------------------------------------------------------------------------------------------------
+1º algoritimo:
 
+numero_1 = float(input("numero 1:"))
+numero_2 = float(input("numero 2:"))
+def soma_numeros()
