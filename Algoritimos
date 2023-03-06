@@ -12,9 +12,16 @@ def soma_numeros():
 soma_numeros()
 _______________________________________
 2º algoritimo:
+temperatura_type = int(input("Digite 1 para Celsius e 2 para Fahrenheit:"))
+temperatura = float(input("Digite temperatura"))
+temperatura_convertida = 0
 
-
-
+def temperatura_converter():
+    if temperatura_type == 1:
+        temperatura_convertida = float((temperatura . 1,8) + 32)
+    else:
+        temperatura_convertida = float((temperatura-32) . 1,8)
+    print ("A temperatura convertida é:", temperatura_convertida)
 _______________________________________
 3º algoritimo:
 numero_1= input("numero 1:")
