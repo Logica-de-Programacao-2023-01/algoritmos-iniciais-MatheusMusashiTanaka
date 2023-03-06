@@ -25,13 +25,15 @@ def temperatura_converter():
 temperatura_converter()
 _______________________________________
 3º algoritimo:
-numero_1= input("numero 1:")
-numero_2= input("numero 2:")
-numero_3= input("numero 3:")
-numero_4= input("numero 4:")
-x = (numero_1 + numero_2 + numero_3 + numero_4)
-
-def Media():
-   media = (x/4) 
-   print("A media é:", media)
-Media()
+lista = []
+n_numeros = int(input("quantos numeros voce vai usar?:"))
+soma=0
+for i in range(n_numeros):
+    input_usuario = float(input("coloque um valor: "))
+    lista.append(input_usuario)
+for n in lista:
+    soma = float(soma + n)
+def media_lista():
+    media =  soma/n_numeros 
+    print("A media é :", media)
+media_lista()
