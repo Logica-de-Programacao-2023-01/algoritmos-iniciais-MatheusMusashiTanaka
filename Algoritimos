@@ -37,3 +37,63 @@ def media_lista():
     media =  soma/n_numeros 
     print("A media é :", media)
 media_lista()
+____________________________________
+4º algoritimo:
+
+x = float(input("))
+resultado = 1
+entre 2 e x
+for (para cada valor entre 2 e x multiplique resultado
+_____________________________________
+5º algoritimo:
+
+leia x
+leia lista
+
+if number read is x - print x - else read the next number
+    if there wasnt any print (not found)
+_____________________________________
+6º algoritimo:
+
+x
+potencia = int(input("escreva a potencia que voce deseja")
+
+def resultado()
+   x*x for the times of potencia
+______________________________________
+7º algoritimo:
+
+x = float(input("numero))
+divisão - for 2 and (x-1)
+  if = x/divisao=0 print "nao primo?"
+  if = x/divisao =/ 0 print "primo"
+ ____________________________________
+ 8º algoritimo 
+ 
+ base = input
+ altura = input
+Area= ((altura*base)/2) 
+_____________________________________
+9º
+  
+Capital_inicial = input
+taxa_juros = input
+tempo = input
+resltado = Capital_inicial
+pra todo numero entre 1 e tempo:
+   resultado = resultado *(1+taxa_juros)
+print resultado
+___________________________________
+10º algoritimo
+
+lista = []
+n_numeros = int(input("quantos numeros voce vai usar?:"))
+for i in range(n_numeros):
+    input_usuario = float(input("coloque um valor: "))
+    lista.append(input_usuario)
+for i in range lista:
+    soma = soma + (elemento_atual * peso_correspondente)
+for i in lista_pesos:
+     somatorio_pesos = somatorios_pesos+elemento_atual
+print ( somatorio/somatorio_pesos)
+
