@@ -1,0 +1,99 @@
+1º-Algoritmo de soma de dois números: um algoritmo simples que pede dois números como entrada e retorna a soma desses dois números.
+2º-Algoritmo de conversão de temperatura: um algoritmo que converte uma temperatura em Celsius para Fahrenheit ou vice-versa.
+3º-Algoritmo de cálculo de média: um algoritmo que calcula a média de uma lista de números.
+----------------------------------------------------------------------------------------------------------------------------------
+1º algoritimo:
+
+numero_1 = float(input("numero 1:"))
+numero_2 = float(input("numero 2:"))
+def soma_numeros():
+   Soma = (numero_1 + numero_2)
+   print (Soma)
+soma_numeros()
+_______________________________________
+2º algoritimo:
+temperatura_type = int(input("Digite 1 para Celsius e 2 para Fahrenheit:"))
+temperatura = float(input("Digite temperatura:"))
+temperatura_convertida = 0
+
+def temperatura_converter():
+    if temperatura_type == 1:
+        temperatura_convertida = float((temperatura * 1.8) + 32)
+    else:
+        temperatura_convertida = float((temperatura-32) * 5/9)
+    print ("A temperatura convertida é:", temperatura_convertida)
+temperatura_converter()
+_______________________________________
+3º algoritimo:
+lista = []
+n_numeros = int(input("quantos numeros voce vai usar?:"))
+soma=0
+for i in range(n_numeros):
+    input_usuario = float(input("coloque um valor: "))
+    lista.append(input_usuario)
+for n in lista:
+    soma = float(soma + n)
+def media_lista():
+    media =  soma/n_numeros 
+    print("A media é :", media)
+media_lista()
+____________________________________
+4º algoritimo:
+
+x = float(input("))
+resultado = 1
+entre 2 e x
+for (para cada valor entre 2 e x multiplique resultado
+_____________________________________
+5º algoritimo:
+
+leia x
+leia lista
+
+if number read is x - print x - else read the next number
+    if there wasnt any print (not found)
+_____________________________________
+6º algoritimo:
+
+x
+potencia = int(input("escreva a potencia que voce deseja")
+
+def resultado()
+   x*x for the times of potencia
+______________________________________
+7º algoritimo:
+
+x = float(input("numero))
+divisão - for 2 and (x-1)
+  if = x/divisao=0 print "nao primo?"
+  if = x/divisao =/ 0 print "primo"
+ ____________________________________
+ 8º algoritimo 
+ 
+ base = input
+ altura = input
+Area= ((altura*base)/2) 
+_____________________________________
+9º
+  
+Capital_inicial = input
+taxa_juros = input
+tempo = input
+resltado = Capital_inicial
+pra todo numero entre 1 e tempo:
+   resultado = resultado *(1+taxa_juros)
+print resultado
+___________________________________
+10º algoritimo
+
+lista = []
+n_numeros = int(input("quantos numeros voce vai usar?:"))
+for i in range(n_numeros):
+    input_usuario = float(input("coloque um valor: "))
+    lista.append(input_usuario)
+for i in range lista:
+    soma = soma + (elemento_atual * peso_correspondente)
+for i in lista_pesos:
+     somatorio_pesos = somatorios_pesos+elemento_atual
+print ( somatorio/somatorio_pesos)
+
